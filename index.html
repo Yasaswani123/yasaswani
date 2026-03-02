@@ -3,57 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI_Student_System_v1.0</title>
+    <title>Student Portfolio | AITS Tirupati</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="terminal-bg">
-        <div class="scanline"></div>
-        <div class="terminal-container">
-            <header>
-                <div class="status-bar">SYSTEM_ACTIVE // SECURE_CONNECTION</div>
-                <h1 class="glitch" data-text="YOUR NAME">YOUR NAME</h1>
-                <p class="console-text">> Initializing Student_Profile... [OK]</p>
-                <p class="console-text">> Location: AITS_Tirupati_Autonomous</p>
-            </header>
-
-            <div class="stats-bar">
-                <div class="stat"><span>SKILLS:</span> Python, Java, Web_Dev</div>
-                <div class="stat"><span>ROLE:</span> AI_Researcher</div>
+    <div id="particles-js"></div>
+    
+    <main>
+        <header class="main-card">
+            <h1>Your Name</h1>
+            <p class="subtitle">B.Tech Engineering Student @ AITS Tirupati</p>
+            <div class="contact-grid">
+                <span>yourname@email.com</span>
+                <span>+91 00000 00000</span>
             </div>
+        </header>
 
-            <main>
-                <section class="cmd-block">
-                    <span class="prompt">root@portfolio:~$</span> <span class="cmd">cat education.txt</span>
-                    <div class="response">
-                        B.Tech Engineering | 2022-2026<br>
-                        Annamacharya Institute of Tech & Sciences<br>
-                        Status: NAAC 'A' Accredited
-                    </div>
-                </section>
+        <div class="grid">
+            <section class="card">
+                <h2>Education</h2>
+                <h3>Annamacharya Institute of Tech & Sciences</h3>
+                <p>Status: Autonomous | NAAC 'A' Accredited</p>
+            </section>
 
-                <section class="cmd-block">
-                    <span class="prompt">root@portfolio:~$</span> <span class="cmd">ls projects/</span>
-                    <div class="response">
-                        • <span class="highlight">College_Management_Dashboard.sys</span><br>
-                        • <span class="highlight">Workshop_Robomanthan_Core.bin</span>
-                    </div>
-                </section>
+            <section class="card">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Web Development</li>
+                </ul>
+            </section>
 
-                <section class="cmd-block">
-                    <span class="prompt">root@portfolio:~$</span> <span class="cmd">finger contact_info</span>
-                    <div class="response">
-                        Email: yourname@email.com<br>
-                        Phone: +91 00000 00000
-                    </div>
-                </section>
-            </main>
-
-            <footer>
-                <div class="typing">_</div>
-            </footer>
+            <section class="card full-width">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>College Management Dashboard</h3>
+                    <p>Interactive web interface conceptual model data tracking visualization.</p>
+                </div>
+            </section>
         </div>
-    </div>
+    </main>
 </body>
 </html>
